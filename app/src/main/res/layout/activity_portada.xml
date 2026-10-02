@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="321dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="TECNOLOGICO DE ESTUDIOS SUPERIORES DEL ESTADO DE MEXICO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="281dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Grupo: 7S5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="278dp"
+        android:layout_height="87dp"
+        android:gravity="center"
+        android:text="Topicos Selectos de Dispositivos Moviles Hibridos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="282dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="Alumno. Rodriguez Morales Angel Natahel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="281dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Profesor. Victor Hugo de la O Martinez"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
